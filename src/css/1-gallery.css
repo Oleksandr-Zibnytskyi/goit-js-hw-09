@@ -1,0 +1,36 @@
+body {
+    background-color: #ffffff;
+}
+ul { list-style: none; }
+
+.gallery {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   width: 1440px;
+gap: 24px;
+justify-content: center;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
+
+.gallery-item:hover {
+transform: scale(1.08);
+}
+
+.form-page-2 {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.page-gallery {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    font-size: 20px;
+}
